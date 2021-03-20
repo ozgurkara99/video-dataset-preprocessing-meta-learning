@@ -5,6 +5,10 @@ Something-something-v2 dataset can be found here: https://20bn.com/datasets/some
 
 # Usage
 ```
+pip install -r requirements.txt
+```
+
+```
 python main.py [options]
 ```
 
