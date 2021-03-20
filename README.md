@@ -26,5 +26,5 @@ python main.py [options]
  
 # References
 [1] Zhu, L., & Yang, Y. (2018). Compound Memory Networks for Few-shot Video Classification. In Proceedings of the European Conference on Computer Vision (ECCV).  
-[2] Cao, K., Ji, J., Cao, Z., Chang, C.Y., & Niebles, J. (2020). Few-Shot Video Classification via Temporal Alignment. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+[2] Wang, L., Xiong, Y., Wang, Z., Qiao, Y., Lin, D., Tang, X., & Gool, V. (2016). Temporal Segment Networks: Towards Good Practices for Deep Action Recognition. ECCV.
 
