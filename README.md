@@ -1,0 +1,2 @@
+# video-dataset-preprocessing-meta-learning
+Something-something-v2 video dataset is splitted into 3 meta-sets including overall 100 classes according to CMU [0], namely: meta-training, meta-validation, meta-test. The code also provides a dataloader in order to create episodes considering given n-way k-shot learning task. Videos are converted to the frames under sparse-sampling protocol described in TSN [1]
