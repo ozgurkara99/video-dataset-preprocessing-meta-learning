@@ -7,11 +7,11 @@ import torch
 def get_args():
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--target", type=str, default="dataset", help="validation set list")
+    parser.add_argument("--target", type=str, default="dataset", help="Target folder to which meta-sets copied")
     parser.add_argument("--val", type=str, default="smsm-100/val.list", help="validation set list")
     parser.add_argument("--test", type=str, default="smsm-100/test.list", help="test set list")
     parser.add_argument("--train", type=str, default="smsm-100/train.list", help="training set list")
-    parser.add_argument("--src", type=str, default="something v2/20bn-something-something-v2/", help="Directory to which the videos will be copied")
+    parser.add_argument("--src", type=str, default="something v2/20bn-something-something-v2/", help="Source directory where all videos are available")
     parser.add_argument("--k", type=int, default=1, help="k-shot")
     parser.add_argument("--n", type=int, default=5, help="n-way")
     parser.add_argument("--T", type=int, default=8, help="Number of frames for video split")
