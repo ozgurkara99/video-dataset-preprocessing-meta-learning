@@ -9,15 +9,15 @@ python main.py [options]
 ```
 
 ```
-Options:
-  --target          Target folder to which meta-sets copied
-  --val             Validation set list, can be found in: https://github.com/ffmpbgrnn/CMN
-  --test            Test set list, can be found in: https://github.com/ffmpbgrnn/CMN
-  --train           Train set list, can be found in: https://github.com/ffmpbgrnn/CMN 
-  --src             Source directory where all videos are available. Can be downloaded from: https://20bn.com/datasets/something-something
-  --k               k-shot 
-  --n               n-way
-  --T               Videos are splitted into T number of segments under sparse-sampling protocol
+  Options:     **Default:**                                      **Description:**
+  --target     dataset                                           Target folder to which meta-sets copied
+  --val        smsm-100/val.list                                 Validation set list, can be found in: https://github.com/ffmpbgrnn/CMN
+  --test       smsm-100/test.list                                Test set list, can be found in: https://github.com/ffmpbgrnn/CMN
+  --train      smsm-100/train.list                               Train set list, can be found in: https://github.com/ffmpbgrnn/CMN 
+  --src        something v2/20bn-something-something-v2/         Source directory where all videos are available. 
+  --k          1                                                 k-shot 
+  --n          5                                                 n-way
+  --T          8                                                 Videos are splitted into T number of segments under sparse-sampling protocol
 ```
 
 # References
