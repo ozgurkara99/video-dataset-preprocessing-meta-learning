@@ -13,7 +13,7 @@ python main.py [options]
 ```
 
 ```
-  Options:     Default Values                                    Description:
+  Options:     Default Values:                                   Description:
   --target     dataset                                           Target folder to which meta-sets copied
   --val        smsm-100/val.list                                 Validation set list, can be found in: https://github.com/ffmpbgrnn/CMN
   --test       smsm-100/test.list                                Test set list, can be found in: https://github.com/ffmpbgrnn/CMN
