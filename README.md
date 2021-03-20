@@ -23,8 +23,8 @@ python main.py [options]
   --n          5                                                 n-way
   --T          8                                                 Videos are splitted into T number of segments under sparse-sampling protocol
 ```
-
+ 
 # References
-[1] https://openaccess.thecvf.com/content_ECCV_2018/html/Linchao_Zhu_Compound_Memory_Networks_ECCV_2018_paper.html  
-[2] https://openaccess.thecvf.com/content_CVPR_2020/papers/Cao_Few-Shot_Video_Classification_via_Temporal_Alignment_CVPR_2020_paper.pdf
+[1] Zhu, L., & Yang, Y. (2018). Compound Memory Networks for Few-shot Video Classification. In Proceedings of the European Conference on Computer Vision (ECCV).  
+[2] Cao, K., Ji, J., Cao, Z., Chang, C.Y., & Niebles, J. (2020). Few-Shot Video Classification via Temporal Alignment. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
 
