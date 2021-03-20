@@ -3,11 +3,11 @@ Something-something-v2 video dataset is splitted into 3 meta-sets, namely, meta-
 The code also provides a dataloader in order to create episodes considering given n-way k-shot learning task. Videos are converted to the frames under sparse-sampling protocol described in TSN [2]
 
 # Usage
-'''
+```
 python main.py [options]
-'''
+```
 
-'''
+```
 Options:
   --target          Target folder to which meta-sets copied
   --val             Validation set list, can be found in: https://github.com/ffmpbgrnn/CMN
@@ -17,7 +17,7 @@ Options:
   --k               k-shot 
   --n               n-way
   --T               Videos are splitted into T number of segments under sparse-sampling protocol
-'''
+```
 
 # References
 [1] https://openaccess.thecvf.com/content_ECCV_2018/html/Linchao_Zhu_Compound_Memory_Networks_ECCV_2018_paper.html  
