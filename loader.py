@@ -1,6 +1,5 @@
 import os
 import random
-import torch
 import numpy as np
 from util import return_frames
 
@@ -18,11 +17,11 @@ class DATALOADER():
         categories = os.listdir(dir)
         n_way_classes = random.sample(categories, self.n_way)
 
-        query_x = torch.zeros((self.n_way, self.T, 3, 224, 224))
-        query_y = torch.zeros((self.n_way, 1))
+        query_x = np.zeros((self.n_way, self.T, 3, 224, 224))
+        query_y = np.zeros((self.n_way, 1))
 
-        support_x = torch.zeros((self.n_way * self.k_shot, self.T, 3, 224, 224,))
-        support_y = torch.zeros((self.n_way * self.k_shot, 1))
+        support_x = np.zeros((self.n_way * self.k_shot, self.T, 3, 224, 224,))
+        support_y = np.zeros((self.n_way * self.k_shot, 1))
 
         for n in range(self.n_way):
             index = random.randint(0, self.n_way - 1)
@@ -50,7 +49,7 @@ class DATALOADER():
         indexes = l + s
 
         selected_frames = np.array(frames)[list(indexes)]
-        return torch.from_numpy(selected_frames)
+        return selected_frames
 
 
 

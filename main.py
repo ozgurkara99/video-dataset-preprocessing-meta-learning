@@ -2,7 +2,6 @@ import argparse
 from loader import DATALOADER
 import os
 from util import split_sets
-import torch
 
 def get_args():
 
@@ -29,4 +28,4 @@ else:
     split_sets(opt)
 train = DATALOADER(opt, "train")
 query_x, query_y, support_x, support_y = train.random_sample_each_episode()
-print("Size of Query set:", query_x.size(), "Size of support set:", support_x.size())
+print("Size of Query set:", query_x.shape, "Size of support set:", support_x.shape)

@@ -1,0 +1,6 @@
+dataclasses==0.8
+numpy==1.19.5
+opencv-python==4.5.1.48
+Pillow==8.1.2
+pkg-resources==0.0.0
+typing-extensions==3.7.4.3
