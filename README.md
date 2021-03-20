@@ -1,6 +1,7 @@
 # Unofficial implementation for pre-processing and dataloader of Something-something-100 dataset
 Something-something-v2 video dataset is splitted into 3 meta-sets, namely, meta-training, meta-validation, meta-test. Overall, dataset includes 100 classes that are divided according to CMU [1]. The list files can be found here: https://github.com/ffmpbgrnn/CMN  
-The code also provides a dataloader in order to create episodes considering given n-way k-shot learning task. Videos are converted to the frames under sparse-sampling protocol described in TSN [2]
+The code also provides a dataloader in order to create episodes considering given n-way k-shot learning task. Videos are converted to the frames under sparse-sampling protocol described in TSN [2]  
+Something-something-v2 dataset can be found here: https://20bn.com/datasets/something-something
 
 # Usage
 ```
