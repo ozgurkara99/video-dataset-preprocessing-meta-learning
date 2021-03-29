@@ -12,7 +12,7 @@ class Dataset(torch.utils.data.Dataset):
         self.k_shot = opt.k
         self.n_way = opt.n
         self.T = opt.T
-        self.one_epoch_episode = opt.episode_number
+        self.one_epoch_episode = opt.ep_num
 
     def random_sample_each_episode(self):
         dir = "dataset/" + self.split_name + "/"
