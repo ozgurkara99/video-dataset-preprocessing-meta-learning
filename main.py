@@ -14,6 +14,8 @@ def get_args():
     parser.add_argument("--k", type=int, default=1, help="k-shot")
     parser.add_argument("--n", type=int, default=5, help="n-way")
     parser.add_argument("--T", type=int, default=8, help="Number of frames for video split")
+    parser.add_argument("--ep_num", type=int, default=10, help="episode number for training")    
+    
     opt = parser.parse_args()
 
     return opt
